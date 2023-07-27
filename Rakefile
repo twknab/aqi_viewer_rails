@@ -4,3 +4,6 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+# Annotate on db:migrate
+Annotate.load_tasks
